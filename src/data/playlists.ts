@@ -5,22 +5,14 @@ export type Playlist = {
   description: string
   creator: string
   domain: string
+  url?: string
   category: Exclude<Category, 'all'>
   scene: string
   accent: string
 }
 
 export const categories: { id: Category; hi: string; en: string }[] = [
-  { id: 'all', hi: 'सभी', en: 'All' },
-  { id: 'journeys', hi: 'सफ़र', en: 'Journeys' },
-  { id: 'shops', hi: 'दुकान-अड्डा', en: 'Shops & Addas' },
-  { id: 'school', hi: 'बचपन-स्कूल', en: 'School Days' },
-  { id: 'regional', hi: 'क्षेत्रीय', en: 'Regional' },
-  { id: 'bhakti', hi: 'भक्ति-देश', en: 'Bhakti & Desh' },
-  { id: 'festivals', hi: 'त्योहार', en: 'Festivals' },
-  { id: 'weddings', hi: 'शादी-बारात', en: 'Weddings' },
-  { id: 'night', hi: 'रात-महफ़िल', en: 'Late Night' },
-  { id: 'everyday', hi: 'रोज़मर्रा', en: 'Everyday' },
+  { id: 'all', hi: 'सभी', en: 'All' }, { id: 'journeys', hi: 'सफ़र', en: 'Journeys' }, { id: 'shops', hi: 'दुकान-अड्डा', en: 'Shops & Addas' }, { id: 'school', hi: 'बचपन-स्कूल', en: 'School Days' }, { id: 'regional', hi: 'क्षेत्रीय', en: 'Regional' }, { id: 'bhakti', hi: 'भक्ति-देश', en: 'Bhakti & Desh' }, { id: 'festivals', hi: 'त्योहार', en: 'Festivals' }, { id: 'weddings', hi: 'शादी-बारात', en: 'Weddings' }, { id: 'night', hi: 'रात-महफ़िल', en: 'Late Night' }, { id: 'everyday', hi: 'रोज़मर्रा', en: 'Everyday' },
 ]
 
 export const playlists: Playlist[] = [
