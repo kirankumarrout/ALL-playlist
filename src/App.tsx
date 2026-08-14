@@ -1,3 +1,4 @@
+import type React from 'react'
 import { useEffect, useMemo, useState } from 'react'
 import { ExternalLink, Plus, Radio, X, Send, LoaderCircle } from 'lucide-react'
 import { categories, playlists, type Category, type Playlist } from './data/playlists'
