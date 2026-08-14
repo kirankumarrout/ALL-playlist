@@ -1,7 +1,7 @@
 {
   "name": "all-playlist",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,15 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@netlify/blobs": "latest",
+    "@vitejs/plugin-react": "latest",
     "lucide-react": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "vite": "latest",
+    "typescript": "latest"
   },
-  "devDependencies": {
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "@vitejs/plugin-react": "latest",
-    "typescript": "latest",
-    "vite": "latest"
-  }
+  "devDependencies": {}
 }
